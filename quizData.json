@@ -1,0 +1,303 @@
+{
+    "sqlQuestions": [
+        {
+        "question": "Which SQL statement is used to return only different values?",
+        "answers": [
+            "DUPLICATE",
+            "DISTINCT",
+            "DIFFERENT",
+            "SELECT",
+            "None of the above"
+        ],
+        "correct_answer": 1,
+        "imgLink": ""
+        },
+        {
+        "question": "Which SQL clause is always used with a window function?",
+        "answers": [
+            "ORDER BY",
+            "LIMIT",
+            "OVER",
+            "GROUP BY"
+        ],
+        "correct_answer": 2,
+        "imgLink": ""
+        },
+        {
+        "question": "Which SQL statement is used to extract data from the database?",
+        "answers": [
+            "SELECT",
+            "ACCESS",
+            "OPEN",
+            "GET",
+            "ACQUIRE"
+        ],
+        "correct_answer": 0,
+        "imgLink": ""
+        },
+        {
+        "question": "Can you insert multiple rows with only one INSERT query in SQL?",
+        "answers": [
+            "Yes",
+            "No",
+            "It's possible but only with newer MySQL versions",
+            "Yes but these inserts cause data corruption"
+        ],
+        "correct_answer": 0,
+        "imgLink": ""
+        },
+        {
+        "question": "Which SQL command is used to remove the table \"movie\"?",
+        "answers": [
+            "REMOVE TABLE movie",
+            "UPDATE FROM movie",
+            "DELETE FROM movie WHERE",
+            "DROP TABLE movie"
+        ],
+        "correct_answer": 3,
+        "imgLink": ""
+        },
+        {
+        "question": "What is a VIEW in SQL?",
+        "answers": [
+            "VIEWS are virtual tables that do not store any data of their own but display data stored in other tables.",
+            "VIEWS are static tables that store data but the data can't be changed.",
+            "VIEWS are temporary tables which store data only for a certain amount of time.",
+            "VIEWS are no different that any other tables except they are used for faster loading."
+        ],
+        "correct_answer": 0,
+        "imgLink": ""
+        },
+        {
+        "question": "Which of the following is a valid aggregate function in SQL?",
+        "answers": [
+            "CURDATE",
+            "COUNT",
+            "AVARAGE",
+            "MAXIMUM"
+        ],
+        "correct_answer": 1,
+        "imgLink": ""
+        },
+        {
+        "question": "In a SQL LIKE clause, you can ask for any value ending in \"ton\" by writing",
+        "answers": [
+            "LIKE '^.*ton$'",
+            "LIKE 'ton$'",
+            "LIKE '%ton'",
+            "LIKE '*ton'"
+        ],
+        "correct_answer": 2,
+        "imgLink": ""
+        },
+        {
+        "question": "The GROUP BY command cannot be used with aggregate functions in SQL",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "correct_answer": 1,
+        "imgLink": ""
+        },
+        {
+        "question": "What SQL command is used to permanently remove a record from a database table?",
+        "answers": [
+            "DROP",
+            "REMOVE",
+            "DELETE",
+            "CUT"
+        ],
+        "correct_answer": 2,
+        "imgLink": ""
+        }
+    ],
+    
+    "pythonQuestions": [
+        {
+            "question": "What is the output of print(3*1**3) in Python3?",
+            "answers": [
+                "27",
+                "9",
+                "3",
+                "1"
+            ],
+            "correct_answer": 2,
+            "imgLink": ""
+        },
+        {
+            "question": "What is the output of the following Python3 code?",
+            "answers": [
+                "abcd",
+                "a, b, c, d",
+                "Error",
+                "a b c d"
+            ],
+            "correct_answer": 3,
+            "imgLink": "python1.png"
+        },
+        {
+            "question": "What is the output of the following Python3 code?",
+            "answers": [
+                "[0, 1, 2, 0]",
+                "[0, 1, 2]",
+                "[0, 1, 2, 3, 0]",
+                "Error"
+            ],
+            "correct_answer": 0,
+            "imgLink": "python2.png"
+        },
+        {
+            "question": "What is the output of the following Python3 code?",
+            "answers": [
+                "ab1ef2",
+                "abcefd",
+                "ab1efd",
+                "ab12ef12",
+                "Error"
+            ],
+            "correct_answer": 1,
+            "imgLink": "python3.png"
+        },
+        {
+            "question": "What is the output of the following Python3 code?",
+            "answers": [
+                "1 1",
+                "1 44",
+                "3 1",
+                "3 44",
+                "Error"
+            ],
+            "correct_answer": 3,
+            "imgLink": "python4.png"
+        },
+        {
+            "question": "What is the output of the following Python3 code?",
+            "answers": [
+                "dlroW olleH",
+                "Hello Worl",
+                "d",
+                "Error"
+            ],
+            "correct_answer": 0,
+            "imgLink": "python5.png"
+        },
+        {
+            "question": "Which module in Python supports regular expressions?",
+            "answers": [
+                "regex",
+                "re",
+                "pyregex",
+                "regexp",
+                "Python does not support regular expressions"
+            ],
+            "correct_answer": 1,
+            "imgLink": ""
+        },
+        {
+            "question": "Given a string s = “Welcome”, which of the following Python code is incorrect?",
+            "answers": [
+                "print( s[0] )",
+                "print( s.lower() )",
+                "s[1] = \"r\"",
+                "print( s.strip() )"
+            ],
+            "correct_answer": 2,
+            "imgLink": ""
+        },
+        {
+            "question": "To start Python from the command prompt, use the command ______",
+            "answers": [
+                "execute",
+                "run",
+                "python",
+                "go"
+            ],
+            "correct_answer": 2,
+            "imgLink": ""
+        },
+        {
+            "question": "Which of these is not a core data type in Python?",
+            "answers": [
+                "List",
+                "Dictionary",
+                "String",
+                "Class",
+                "Tuple"
+            ],
+            "correct_answer": 3,
+            "imgLink": ""
+        },
+        {
+            "question": "Which of the following function convert a string to a float in python?",
+            "answers": [
+                "int(x [,base])",
+                "float(x)",
+                "long(x [,base])",
+                "str(x)"
+            ],
+            "correct_answer": 1,
+            "imgLink": ""
+        }
+    ],
+
+    "javascriptQuestions": [
+        {
+            "question": "What is the output of the following Javascript code?",
+            "answers": [
+                "true true true",
+                "true true false",
+                "true false false",
+                "false true true",
+                "false false true"
+            ],
+            "correct_answer": 2,
+            "imgLink": "js1.png"
+        },
+        {
+            "question": "What is the output of the following Javascript code?",
+            "answers": [
+                "Hey!",
+                "Hello",
+                "undefinded",
+                "ReferenceError",
+                "TypeError"
+            ],
+            "correct_answer": 1,
+            "imgLink": "js2.png"
+        },
+        {
+            "question": "What is the output of the following Javascript code?",
+            "answers": [
+                "NaN",
+                "TypeError",
+                "\"12\"",
+                "3"
+            ],
+            "correct_answer": 2,
+            "imgLink": "js3.png"
+        },
+        {
+            "question": "What is the output of the following Javascript code?",
+            "answers": [
+                "1 2 2",
+                "0 1 2",
+                "1 1 2",
+                "0 2 2"
+            ],
+            "correct_answer": 3,
+            "imgLink": "js4.png"
+        },
+        {
+            "question": "How do you make single line comments in Javascript?",
+            "answers": [
+                "// Comment",
+                "# Comment",
+                "/* Comment",
+                "<!-- Comment -->"
+            ],
+            "correct_answer": 0,
+            "imgLink": ""
+        }
+    ]
+
+}

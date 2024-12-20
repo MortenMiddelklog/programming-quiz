@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="m-5">
+        <h1 class="display-5">Programming Quiz</h1>
+        <div id="quiz">
+            <p class="h6">Question <span id="counter">1</span> of <span id="questions-amount"></span></p>
+            <p class="h4"><span id="question"></span></p>
+            <span id="image-container"></span>
+            <form id="quiz-form">
+                <div id="answers" class="mt-4 d-flex flex-column maxw-custom">
+                    
+                </div>
+                <button type="button" class="btn btn-dark btn-lg mt-3" id="submit-btn">Reply</button>
+            </form>
+        </div>
+
+        <div class="invisible maxw-custom" id="result">
+            <a href="./index.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Try again</a>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
